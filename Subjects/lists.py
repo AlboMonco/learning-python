@@ -5,8 +5,8 @@ letters = ["a","b","c","d","e","f","g"]
 #Index:    -7  -6  -5  -4  -3  -2  -1
 
 
-#Functions: Access to some element in the list: name_list[index]; name_list[index1:index2] - gives me all the elements in the list starting in index1 and finishing in index2.
-#If there is not an index2, the program will give all the elements starting in index1 until the end.
+#Functions: Access to some element in the list: name_list[index]; name_list[index1:index2] - gives me all the elements in the list starting from index1 to index2.
+#If there is not an index2, the program will give all the elements starting from the beggining to the end.
 #I can change the element of a list: if I want to change the letter c by the letter h, these are the steps: letters[2] = "h" or letters[-5]= "h"
 #letters.extend(list or str) will extend your original list by the information that you give. If you use letters.extend(list), the list that you created before will be add in the letters(without brackets).
 #letters.append(list or str or int or boolean) will add the information to the letters. If you use letters.append(list), the list that you created before will be add in the letters (with brackets)
